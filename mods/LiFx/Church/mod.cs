@@ -53,7 +53,7 @@ package LiFxChurch
             WorkAreaHeight = 0;
             BtnCloseTop = 0;
             BtnCloseLeft = 0;
-            FaceImage = "yolauncher/modpack/art/2D/Recipies/Church.png";
+            FaceImage = "yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png";
             Description = "A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars";
             BasePrice = 0;
             OwnerTimeout = NULL;
@@ -64,7 +64,7 @@ package LiFxChurch
 
   function LiFxChurch::dbChanges() {
            ///////////////////////////////////////Recipe /////////////////////////////////////////////
-    dbi.Update("INSERT IGNORE `recipe` VALUES (1087, 'LiFx Church', 'A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars.', NULL, 62, 0, 2485, 10, 1, 0, 0, 'yolauncher/modpack/art/2D/Recipies/Church.png')");
+    dbi.Update("INSERT IGNORE `recipe` VALUES (1087, 'LiFx Church', 'A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars.', NULL, 62, 0, 2485, 10, 1, 0, 0, 'yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png')");
    
      ///////////////////////////////////////Recipe Requirements /////////////////////////////////////////////
 
