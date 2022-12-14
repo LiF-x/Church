@@ -1,9 +1,9 @@
 /**
 * <author>Warped ibun</author>
-* <email>lifxmod@gmail.com</email>
-* <url>lifxmod.com</url>
-* <credits>Christophe Roblin <christophe@roblin.no> modification to make it yolauncher server modpack and lifxcompatible</credits>
-* <description>Bear Knools from mmo introduced to Lif:YO</description>
+* <email></email>
+* <url></url>
+* <credits></credits>
+* <description>Church from LiF:MMO textured and LiFx and YoLauncher ready</description>
 * <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 */
 
