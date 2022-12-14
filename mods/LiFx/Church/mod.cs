@@ -18,15 +18,14 @@ package LiFxChurch
 
 {
     function LiFxChurch::setup() {
-        LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, Datablock, LiFxChurch);
-        LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, Dbchanges, LiFxChurch);
+        LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, ChurchRecipe, LiFxChurch);
         
         // Register new objects
         LiFx::registerObjectsTypes(LiFxChurch::ObjectsTypesChurch(), LiFxChurch);
 
     }
     function LiFxChurch::version() {
-        return "0.0.2";
+        return "1.0.0";
     }
 
     function LiFxChurch::ObjectsTypesChurch() {
