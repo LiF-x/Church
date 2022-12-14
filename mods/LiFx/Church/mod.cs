@@ -77,4 +77,3 @@ package LiFxChurch
   }
 };
 activatePackage(LiFxChurch);
-LiFx::registerCallback($LiFx::hooks::mods, setup, LiFxChurch);
