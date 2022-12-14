@@ -62,18 +62,23 @@ package LiFxChurch
         };
     }
 
-  function LiFxChurch::dbChanges() {
-           ///////////////////////////////////////Recipe /////////////////////////////////////////////
-    dbi.Update("INSERT IGNORE `recipe` VALUES (1087, 'LiFx Church', 'A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars.', NULL, 62, 0, 2485, 10, 1, 0, 0, 'yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png')");
-   
+  function LiFxChurch::ChurchRecipe() {
+    ///////////////////////////////////////Recipe /////////////////////////////////////////////
+    dbi.Select(LiFxChurch, "ChurchRequiremenss","INSERT IGNORE INTO `recipe` VALUES (NULL, 'LiFx Church', 'A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars.', NULL, 62, 0, 2485, 10, 1, 0, 0, 'yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png') RETURNING ID");
+  }
+
+  function LiFxChurch::ChurchRequiremenss(%this, %resultSet) {
      ///////////////////////////////////////Recipe Requirements /////////////////////////////////////////////
-
-    dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, 1087, 233, 0, 10, 250, 0)"); // 250 x Logs
-    dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, 1087, 269, 0, 80, 350, 0)"); // 350 x Shaped Stone
-    dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, 1087, 272, 0, 10, 250, 0)"); // 250 x Glass
-    dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, 1087, 271, 0, 80, 650, 0)"); // 650 x Shaped Granite
-    dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, 1087, 326, 0, 10, 650, 0)"); // 650 x hardwood board
-
+    if(%resultSet.ok() && %resultSet.nextRecord()) {
+      %lastInsert = %resultSet.getFieldValue("ID");
+      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 233, 0, 10, 250, 0)"); // 250 x Logs
+      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 269, 0, 80, 350, 0)"); // 350 x Shaped Stone
+      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 272, 0, 10, 250, 0)"); // 250 x Glass
+      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 271, 0, 80, 650, 0)"); // 650 x Shaped Granite
+      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 326, 0, 10, 650, 0)"); // 650 x hardwood board
+    }
+    dbi.remove(%resultSet);
+    %resultSet.delete();
   }
 };
 activatePackage(LiFxChurch);

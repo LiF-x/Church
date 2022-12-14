@@ -1,0 +1,154 @@
+<object id="2485" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3">
+  <!--name = LiFx Church-->
+  <lockedCells>   
+    <cell x="0" y="0" />        
+    <cell x="1" y="1" />
+    <cell x="7" y="0" />
+    <cell x="0" y="-4" />
+    <cell x="0" y="-5" /> 
+    <cell x="-7" y="0" />
+    <cell x="-5" y="2" />
+    <cell x="-8" y="-1" />
+    <cell x="-6" y="0" />
+    <cell x="-5" y="0" />
+    <cell x="-4" y="0" />
+    <cell x="-3" y="0" />
+    <cell x="-2" y="0" />
+    <cell x="1" y="0" />
+    <cell x="2" y="0" />         
+    <cell x="-5" y="-1" />
+    <cell x="-7" y="-1" />
+    <cell x="-7" y="-2" />
+    <cell x="-6" y="-1" />
+    <cell x="-6" y="-2" />
+    <cell x="-6" y="-3" />
+    <cell x="-4" y="1" />
+    <cell x="-1" y="2" />
+    <cell x="-1" y="3" />
+    <cell x="-5" y="-4" />         
+    <cell x="5" y="-1" />         
+    <cell x="4" y="-1" />
+    <cell x="4" y="-2" />
+    <cell x="-3" y="-1" />                  
+    <cell x="-1" y="-3" />
+    <cell x="-1" y="-4" />
+    <cell x="-1" y="-5" />
+    <cell x="0" y="1" /> 
+    <cell x="-2" y="-1" />
+    <cell x="-2" y="-2" />
+    <cell x="-2" y="-3" />
+    <cell x="-2" y="-4" />
+    <cell x="-2" y="-5" />       
+    <cell x="-2" y="2" />
+    <cell x="-2" y="3" />       
+    <cell x="1" y="3" />
+    <cell x="2" y="3" />
+    <cell x="2" y="2" />
+    <cell x="2" y="1" />      
+    <cell x="2" y="-2" />
+    <cell x="2" y="-1" />
+    <cell x="0" y="2" />
+    <cell x="0" y="3" />
+    <cell x="-3" y="-2" />
+    <cell x="-3" y="3" />
+    <cell x="4" y="1" />
+    <cell x="-5" y="1" />
+    <cell x="-6" y="1" />
+    <cell x="-7" y="1" />       
+    <cell x="3" y="-2" />
+    <cell x="3" y="-1" />
+    <cell x="1" y="-2" />
+    <cell x="1" y="-3" />
+    <cell x="1" y="-5" />
+    <cell x="1" y="-4" />
+    <cell x="1" y="-3" />
+    <cell x="1" y="-2" />
+    <cell x="1" y="-1" />
+    <cell x="1" y="2" />
+    <cell x="1" y="-3" />
+    <cell x="2" y="-5" />
+    <cell x="2" y="-4" />         
+    <cell x="2" y="-2" />
+    <cell x="2" y="-1" />
+    <cell x="4" y="0" />
+    <cell x="5" y="0" />
+    <cell x="-8" y="1" />
+    <cell x="7" y="-1" />
+    <cell x="6" y="-1" />
+    <cell x="7" y="-2" />
+    <cell x="6" y="-2" />
+    <cell x="5" y="-2" />
+    <cell x="4" y="-3" />
+    <cell x="-7" y="-3" />
+    <cell x="-2" y="1" />         
+    <cell x="-3" y="1" />
+    <cell x="-4" y="-1" /> 
+    <cell x="-4" y="-2" />
+    <cell x="-4" y="-3" />       
+    <cell x="-5" y="-2" />
+    <cell x="-5" y="-3" />
+    <cell x="0" y="-3" />
+    <cell x="2" y="-3" />
+    <cell x="6" y="0" />          
+    <!--<cell x="-1" y="-6" /> Unblocked-->
+    <cell x="-2" y="-4" />            
+    <!--<cell x="-2" y="-6" />Unblocked-->
+    <cell x="-3" y="-3" /> 
+    <cell x="-3" y="-4" /> 
+    <cell x="-3" y="-5" /> 
+    <cell x="3" y="0" /> 
+    <cell x="-3" y="2" />
+  </lockedCells>
+  <states>
+  <state type="Complete">
+    <shapes>
+      <shape isDoor="1">
+        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church.dts</shapeName>
+        <offset x="0" y="-4" z="0" />
+        <rot x="0" y="0" z="1" angle="0" />
+        <scale x="1" y="1" z="1" />
+      </shape>
+    </shapes>
+  </state>
+  <state type="Damaged">
+    <shapes>
+      <shape>
+        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church_dmg.dts</shapeName>
+        <offset x="0" y="-4" z="0" />
+        <rot x="0" y="0" z="1" angle="0" />
+        <scale x="1" y="1" z="1" />
+      </shape>
+    </shapes>
+  </state>
+  <state type="Incomplete">
+    <shapes>
+      <shape>
+        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church_inc.dts</shapeName>
+        <offset x="0" y="-4" z="0" />
+        <rot x="0" y="0" z="1" angle="0" />
+        <scale x="1" y="1" z="1" />
+      </shape>
+    </shapes>
+  </state>
+  <state type="Working">
+    <shapes>
+      <shape>
+        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church.dts</shapeName>
+        <animationName>bell</animationName>
+        <offset x="0" y="-4" z="0" />
+        <rot x="0" y="0" z="1" angle="0" />
+        <scale x="1" y="1" z="1" />
+      </shape>
+    </shapes>
+    <soundEmitters>
+      <emitter>
+        <profile>ChurchBell</profile>
+        <event>Object_TowerBell_High</event>
+        <offset x="0" y="0" z="32.2" />
+        <rot x="0" y="0" z="1" angle="0" />
+        <radius>40</radius>
+      </emitter>
+    </soundEmitters>
+    </state>
+  </states>
+</object>
