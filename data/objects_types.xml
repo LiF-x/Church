@@ -36193,7 +36193,7 @@
 		<MaxStackSize>40</MaxStackSize>
 		<UnitWeight>1800000</UnitWeight>
 		<BackgndImage></BackgndImage>
-		<FaceImage>yolauncher/modpack/art/2D/Recipies/Church.png</FaceImage>
+		<FaceImage>yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png</FaceImage>
 		<Description>A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars. It also houses 120 charactors</Description>
 	</row>
 </table>
