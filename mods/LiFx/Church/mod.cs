@@ -18,7 +18,7 @@ package LiFxChurch
 
 {
     function LiFxChurch::setup() {
-      LiFx::registerCallback($LiFx::hooks::onServerCreatedCallbacks, ChurchRecipe, LiFxChurch);
+      LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, ChurchRecipe, LiFxChurch);
       
       // Register new objects
       LiFx::registerObjectsTypes(LiFxChurch::ObjectsTypesChurch(), LiFxChurch);
