@@ -25,7 +25,7 @@ package LiFxChurch
 
     }
     function LiFxChurch::version() {
-        return "0.0.2";
+        return "1.0.0";
     }
 
     function LiFxChurch::ObjectsTypesChurch() {
