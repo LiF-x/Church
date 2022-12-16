@@ -63,7 +63,7 @@ package LiFxChurch
 
   function LiFxChurch::ChurchRecipe() {
     ///////////////////////////////////////Recipe /////////////////////////////////////////////
-    dbi.Select(LiFxChurch, "ChurchRequirements","SELECT AUTO_INCREMENT as ID FROM information_schema.tables WHERE table_name = 'recipe' AND table_schema = DATABASE()");
+    dbi.Select(LiFxChurch, "ChurchRequirements","SELECT MAX(ID)+1 as ID FROM `recipe`");
   }
   function LiFxChurch::ChurchRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
