@@ -25,7 +25,7 @@ package LiFxChurch
 
     }
     function LiFxChurch::version() {
-        return "1.0.0";
+        return "1.0.1";
     }
 
     function LiFxChurch::ObjectsTypesChurch() {
@@ -61,23 +61,23 @@ package LiFxChurch
         };
     }
 
-  function LiFxChurch::ChurchRecipe() {
-    ///////////////////////////////////////Recipe /////////////////////////////////////////////
-    dbi.Select(LiFxChurch, "ChurchRequirements","SELECT MAX(ID)+1 as ID FROM `recipe`");
+   function LiFxChurch::ChurchRecipe() {
+                                   //dbi.update("INSERT IGNORE INTO `recipe` VALUES (NULL,      Name,                 Description,      StartingToolsID,   SkillTypeID, SkillLvl, ResultObjectTypeID, SkillDepends,       Quantity, Autorepeat, isBluePrint, ImagePath)
+    dbi.Select(LiFxChurch, "ChurchRequirements","INSERT IGNORE INTO `recipe` VALUES (NULL, 'LiFx Church', 'A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars.', NULL, 62, 0, 2485, 10, 1, 0, 0, 'yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png') RETURNING ID");
   }
   function LiFxChurch::ChurchRequirements(%this, %resultSet) {
     if(%resultSet.ok() && %resultSet.nextRecord()) {
       %lastInsert = %resultSet.getFieldValue("ID");
-      dbi.Update("INSERT IGNORE `recipe` VALUES (" @ %lastInsert @ ", 'LiFx Church', 'A Beautiful Church similar to one seen in godenland whilst fighting the great knool wars.', NULL, 62, 0, 2485, 10, 1, 0, 0, 'yolauncher/modpack/mods/LiFx/Church/art/2D/Recipies/Church.png')");
-      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 233, 0, 10, 250, 0)"); // 250 x Logs
-      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 269, 0, 80, 350, 0)"); // 350 x Shaped Stone
-      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 272, 0, 10, 250, 0)"); // 250 x Glass
-      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 271, 0, 80, 650, 0)"); // 650 x Shaped Granite
-      dbi.Update("INSERT IGNORE `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ", 326, 0, 10, 650, 0)"); // 650 x hardwood board
+    //dbi.update("INSERT IGNORE INTO `recipe_requirement` VALUES (RecipeID,            MaterialObjectTypeID, Quality, Influence, Quantity, IsRegionalItemRequired)
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  233, 0, 10, 250, 0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  269, 0, 80, 350, 0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  272, 0, 10, 250, 0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  271, 0, 80, 650, 0)");
+      dbi.Update("INSERT IGNORE INTO `recipe_requirement` VALUES (NULL, " @ %lastInsert @ ",  326, 0, 10, 650, 0)");
     }
     dbi.remove(%resultSet);
     %resultSet.delete();
- }
+  }
      ///////////////////////////////////////Recipe Requirements /////////////////////////////////////////////
 
 };
