@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object_types xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <object id="2485" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3" xdt:Transform="Insert">
+  <!--name = LiFx Church-->
+  <lockedCells>
+			<cell x="1" y="0" />
+			<cell x="2" y="0" />
+			<cell x="3" y="0" />
+			<cell x="1" y="-1" />
+			<cell x="2" y="-1" />
+			<cell x="3" y="-1" />
+			<cell x="1" y="1" />
+			<cell x="2" y="1" />
+			<cell x="3" y="1" />
+			<cell x="0" y="0" />
+			<cell x="0" y="1" />
+			<cell x="0" y="-1" />
+			<cell x="-1" y="0" />
+			<cell x="-1" y="1" />
+			<cell x="-1" y="-1" />
+			<cell x="-2" y="0" />
+			<cell x="-3" y="0" />
+			<cell x="-4" y="0" />
+			<cell x="-5" y="0" />
+			<cell x="-6" y="0" />
+			<cell x="4" y="0" />
+			<cell x="5" y="0" />
+			<cell x="6" y="0" />
+			<cell x="7" y="0" />
+			<cell x="4" y="1" />
+			<cell x="5" y="1" />
+			<cell x="6" y="1" />
+			<cell x="7" y="1" />
+			<cell x="4" y="-1" />
+			<cell x="5" y="-1" />
+			<cell x="6" y="-1" />
+			<cell x="7" y="-1" />
+			<cell x="4" y="-2" />
+			<cell x="4" y="2" />
+			<cell x="1" y="2" />
+			<cell x="1" y="3" />
+			<cell x="1" y="4" />
+			<cell x="1" y="-2" />
+			<cell x="1" y="-3" />
+			<cell x="1" y="-4" />
+			<cell x="2" y="2" />
+			<cell x="2" y="3" />
+			<cell x="2" y="4" />
+			<cell x="2" y="-2" />
+			<cell x="2" y="-3" />
+			<cell x="2" y="-4" />
+			<cell x="-2" y="1" />
+			<cell x="-3" y="1" />
+			<cell x="-4" y="1" />
+			<cell x="-5" y="1" />		
+			<cell x="-2" y="-1" />
+			<cell x="-3" y="-1" />
+			<cell x="-4" y="-1" />
+			<cell x="-5" y="-1" />
+			<cell x="4" y="0" />
+			<cell x="-2" y="0" />
+			<cell x="-3" y="0" />
+			<cell x="-4" y="0" />
+			<cell x="-1" y="2" />
+			<cell x="-2" y="2" />
+			<cell x="-3" y="2" />
+			<cell x="-4" y="2" />
+			<cell x="-5" y="2" />
+			<cell x="-1" y="-2" />
+			<cell x="-2" y="-2" />
+			<cell x="-3" y="-2" />
+			<cell x="-4" y="-2" />
+			<cell x="-5" y="-2" />
+			<cell x="-5" y="3" />
+			<cell x="-5" y="-3" />
+			<cell x="-1" y="3" />
+			<cell x="-3" y="3" />
+			<cell x="-1" y="-3" />
+			<cell x="-3" y="-3" />
+			<cell x="-1" y="4" />
+			<cell x="-1" y="-4" />
+			<cell x="0" y="2" />
+			<cell x="0" y="3" />
+			<cell x="0" y="4" />
+			<cell x="0" y="-2" />
+			<cell x="0" y="-3" />
+			<cell x="0" y="-4" />
+			<cell x="3" y="-2" />
+			<cell x="3" y="-3" />
+			<cell x="3" y="-4" />
+			<cell x="3" y="2" />
+			<cell x="3" y="3" />
+			<cell x="3" y="4" />
+			<cell x="4" y="-3" />
+			<cell x="4" y="-4" />
+			<cell x="4" y="3" />
+			<cell x="4" y="4" />
+			<cell x="5" y="-2" />
+			<cell x="5" y="-3" />
+			<cell x="5" y="-4" />
+			<cell x="5" y="2" />
+			<cell x="5" y="3" />
+			<cell x="5" y="4" />
+			<cell x="6" y="2" />
+			<cell x="7" y="2" />
+			<cell x="6" y="-2" />
+			<cell x="7" y="-2" />
+			<cell x="8" y="0" />
+			<cell x="9" y="0" />
+			<cell x="10" y="0" />
+			<cell x="8" y="-1" />
+			<cell x="9" y="-1" />
+			<cell x="10" y="-1" />
+			<cell x="8" y="1" />
+			<cell x="9" y="1" />
+			<cell x="10" y="1" />
+        </lockedCells>
+        <states>
+            <state type="Complete">
+                <shapes>
+                    <shape isDoor="1">
+                        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church.dts</shapeName>
+
+                        <offset x="9.88" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+                <pointLights>
+                    <light>
+                        <prototype>bonfire_light</prototype>
+                        <offset x="26" y="7.3" z="26" />
+                        <radius>8</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light</prototype>
+                        <offset x="26" y="-8.3" z="26" />
+                        <radius>8</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="4.1" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="-4.3" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <!--Interior light-->
+                    
+                    <!--Tree light-->
+                    
+                    <!--Cellar light-->
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="-3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="-7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="-7.2" z="2" />
+                        <radius>3</radius>
+                    </light>
+                </pointLights>
+                <!-- Cellar -->
+                <particleEmitters>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="3.35" z="1.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="-3.35" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="-3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="-7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="-7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="-7.2" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="-7.2" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                <!-- Columns and torches -->
+                    <emitter>
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="7.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26.3" y="7.3" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="-8.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26.3" y="-8.3" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>motes</emitter>
+                        <offset x="-9.952" y="0.181" z="15.0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                </particleEmitters>
+                          
+            </state>
+
+            <state type="Working">
+                <shapes>
+                    <shape isDoor="1">
+                        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church.dts</shapeName>
+
+                        <offset x="9.88" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+                <pointLights>
+                    <light>
+                        <prototype>bonfire_light</prototype>
+                        <offset x="26" y="7.3" z="26" />
+                        <radius>8</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light</prototype>
+                        <offset x="26" y="-8.3" z="26" />
+                        <radius>8</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="4.1" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="-4.3" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <!--Interior light-->
+                    
+                    <!--Tree light-->
+                    
+                    <!--Cellar light-->
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="-3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="-7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+                    <light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="-7.2" z="2" />
+                        <radius>3</radius>
+                    </light>
+                </pointLights>
+                <!-- Cellar -->
+                <particleEmitters>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="3.35" z="1.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="-3.35" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="-3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="-7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="-7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="-7.2" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="-7.2" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                <!-- Columns and torches -->
+                    <emitter>
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="7.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26.3" y="7.3" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="-8.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26.3" y="-8.3" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>motes</emitter>
+                        <offset x="-9.952" y="0.181" z="15.0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                </particleEmitters>                         
+                <soundEmitters>
+                    <emitter>
+                       <profile>ChurchBell</profile>
+                        <event>Object_TowerBell_High</event>
+                      <offset x="0" y="0" z="32.2" />
+                      <rot x="0" y="0" z="1" angle="0" />
+                        <radius>40</radius>
+                    </emitter>
+                </soundEmitters>
+            </state>
+            <state type="Damaged">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church_dmg.dts</shapeName>
+
+                        <offset x="9.88" y="0" z="0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+                <pointLights>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="4.1" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <light>
+                        <prototype>bonfire_light2</prototype>
+                        <offset x="25.2" y="-4.3" z="11.1" />
+                        <radius>3.5</radius>
+                    </light>
+                    <!--Interior light-->
+                    
+                    <!--Tree light-->
+                    
+					<!--Cellar light-->
+					<light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+					<light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-18.8" y="-3.35" z="2" />
+                        <radius>3</radius>
+                    </light>
+					<light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+					<light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-13.3" y="-7" z="2" />
+                        <radius>3</radius>
+                    </light>
+					<light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="7" z="2" />
+                        <radius>3</radius>
+                    </light>
+					<light>
+                        <prototype>FirePointLight</prototype>
+                        <offset x="-3.55" y="-7.2" z="2" />
+                        <radius>3</radius>
+                    </light>
+                </pointLights>
+				<particleEmitters>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="26.3" y="7.3" z="24.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="26" y="7.2" z="24.3" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="4.1" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>SparksOfTorchEmitter</emitter>
+                        <offset x="25.3" y="-4.3" z="11" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>motes</emitter>
+                        <offset x="-9.952" y="0.181" z="15.0" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="3.35" z="1.1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-18.8" y="-3.35" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-18.8" y="-3.35" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-13.3" y="-7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-13.3" y="-7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="7" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="7" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+					<emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire</emitter>
+                        <offset x="-3.55" y="-7.2" z="1" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                    <emitter>
+                        <datablock>LiFEmitterNodeData</datablock>
+                        <emitter>Campfire_smoke</emitter>
+                        <offset x="-3.55" y="-7.2" z="1.5" />
+                        <rot x="0" y="0" z="1" angle="0" />
+                    </emitter>
+                </particleEmitters>
+				
+			</state>
+			<state type="Incomplete">
+                <shapes>
+                    <shape>
+                        <shapeName>yolauncher/modpack/mods/LiFx/Church/art/Models/3D/construction/Decorations/church/church_inc.dts</shapeName>
+                        <offset x="9.88" y="0" z="0" />
+						<rot x="0" y="0" z="1" angle="0" />
+                        <scale x="1" y="1" z="1" />
+                    </shape>
+                </shapes>
+            </state>
+        </states>
+    </object>
+</object_types>

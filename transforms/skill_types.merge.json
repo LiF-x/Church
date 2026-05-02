@@ -1,0 +1,237 @@
+[
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "54"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Praise the God!"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id"
+      }
+    ],
+    "tokensToAdd": "2485"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Open/Close Door"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id"
+      }
+    ],
+    "tokensToAdd": "2485"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "as Your Home"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id"
+      }
+    ],
+    "tokensToAdd": "2485"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "62"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Toll"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id"
+      }
+    ],
+    "tokensToAdd": "2485"
+  },
+  {
+    "path": [
+      {
+        "name": "row",
+        "keyType": "child",
+        "keyName": "ID",
+        "keyValue": "65"
+      },
+      {
+        "name": "abilities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ability",
+        "keyType": "attr",
+        "keyName": "name",
+        "keyValue": "Expel the Intruders"
+      },
+      {
+        "name": "entities",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "entity",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_reqs",
+        "keyType": null,
+        "keyName": null,
+        "keyValue": null
+      },
+      {
+        "name": "ent_req",
+        "keyType": "attr",
+        "keyName": "type",
+        "keyValue": "object_type_id"
+      }
+    ],
+    "tokensToAdd": "2485"
+  }
+]
