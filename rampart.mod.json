@@ -13,6 +13,10 @@
       {
         "src": "mods/",
         "dest": "mods/"
+      },
+      {
+        "src": "yolauncher/",
+        "dest": "yolauncher/"
       }
     ],
     "dataPatches": [
