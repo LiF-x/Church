@@ -1,4 +1,6 @@
-<object id="2485" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3">
+<?xml version="1.0" encoding="utf-8"?>
+<object_types xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <object id="2485" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3" xdt:Transform="Insert">
   <!--name = LiFx Church-->
   <lockedCells>
 			<cell x="1" y="0" />
@@ -712,3 +714,4 @@
             </state>
         </states>
     </object>
+</object_types>

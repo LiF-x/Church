@@ -1,0 +1,50 @@
+diff --git a/data/skill_types.xml b/data/skill_types.xml
+index a0a83e5..7e834d3 100755
+--- a/data/skill_types.xml
++++ b/data/skill_types.xml
+@@ -5577,7 +5577,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id" parent="1">1722 1715 1716 1717 1718 1719 1720 1734 1735 1892 1893 1894 1895 1896 1897 1898 2005</ent_req>
++							<ent_req type="object_type_id" parent="1">1722 1715 1716 1717 1718 1719 1720 1734 1735 1892 1893 1894 1895 1896 1897 1898 2005 2485</ent_req>
+ 							<ent_req type="state">complete</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+@@ -6012,7 +6012,7 @@
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+ 							<ent_req type="state">complete working</ent_req>
+-							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665</ent_req>
++							<ent_req type="object_type_id">127 128 131 132 134 139 140 146 147 148 186 187 188 189 455 516 518 519 520 521 1055 1085 1086 1087 1088 1089 1109 1077 1665 2485</ent_req>
+ 							<ent_req type="claim" usage_type="use">
+ 								<land type="realm" jh_allowed_worlds="everywhere"/>
+ 								<land type="outpost" jh_allowed_worlds="everywhere"/>
+@@ -6032,7 +6032,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355</ent_req>
++							<ent_req type="object_type_id">139 140 142 145 146 1055 147 518 519 521 148 1084 1085 1086 1087 1088 1089 1355 2485</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+ 					</entity>
+@@ -7094,7 +7094,7 @@
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+ 							<ent_req type="state">complete</ent_req>
+-							<ent_req type="object_type_id">1670 1671 1733</ent_req>
++							<ent_req type="object_type_id">1670 1671 1733 2485</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+ 					</entity>
+@@ -7533,7 +7533,7 @@
+ 				<entities>
+ 					<entity type="complex_obj">
+ 						<ent_reqs>
+-							<ent_req type="object_type_id">139 140 142 145 146 147 148 165 175 176 177 518 519 521 1055 1084 1085 1086 1087 1088 1089 1092 1336 1355</ent_req>
++							<ent_req type="object_type_id">139 140 142 145 146 147 148 165 175 176 177 518 519 521 1055 1084 1085 1086 1087 1088 1089 1092 1336 1355 2485</ent_req>
+ 							<ent_req type="claim" usage_type="use"/>
+ 						</ent_reqs>
+ 					</entity>
+
