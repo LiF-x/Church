@@ -16,8 +16,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Praise the God!"
+        "keyName": "id",
+        "keyValue": "347"
       },
       {
         "name": "entities",
@@ -63,8 +63,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Open/Close Door"
+        "keyName": "id",
+        "keyValue": "144"
       },
       {
         "name": "entities",
@@ -110,8 +110,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "as Your Home"
+        "keyName": "id",
+        "keyValue": "145"
       },
       {
         "name": "entities",
@@ -157,8 +157,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Toll"
+        "keyName": "id",
+        "keyValue": "354"
       },
       {
         "name": "entities",
@@ -204,8 +204,8 @@
       {
         "name": "ability",
         "keyType": "attr",
-        "keyName": "name",
-        "keyValue": "Expel the Intruders"
+        "keyName": "id",
+        "keyValue": "287"
       },
       {
         "name": "entities",
