@@ -7,16 +7,37 @@
   "authors": [
     "lif-x community"
   ],
-  "loadOrderHint": 100,
+  "source": {
+    "repo": "LiF-x/Church",
+    "commit": "d2706c7b2ec9eafc3349ae873e990c88244ffdf9"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/ServerAutoloader",
+    "LiF-x/ClientAutoloader"
+  ],
+  "loadOrderHint": 300,
+  "loadOrderNote": "Content mod: registers a new object type, so it loads after the framework and after plain behavioural mods.",
+  "objectTypeIds": {
+    "added": [
+      2485
+    ],
+    "modified": []
+  },
   "files": {
     "overlay": [
       {
-        "src": "mods/",
-        "dest": "mods/"
+        "src": "mods/LiFx/Church/",
+        "dest": "mods/LiFx/Church/"
       },
       {
-        "src": "yolauncher/",
-        "dest": "yolauncher/"
+        "src": "yolauncher/modpack/mods/LiFx/Church/",
+        "dest": "yolauncher/modpack/mods/LiFx/Church/"
       }
     ],
     "dataPatches": [
