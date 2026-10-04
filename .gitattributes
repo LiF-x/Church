@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# LiF data files are CRLF on the live server. Don't let git normalize them
+data/**/*.xml -text
+transforms/**/*.xml -text
